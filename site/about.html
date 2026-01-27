@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rólunk - Hajós Akadémia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
+                    <span>HAJÓS AKADÉMIA</span>
+                </a>
+
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="courses.html" class="nav-link">Courses</a></li>
+                        <li><a href="certificates.html" class="nav-link">Certificates & Permits</a></li>
+                        <li><a href="about.html" class="nav-link active">About Us</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+
+                    <div class="header-actions">
+                        <div class="language-selector">
+                            <button class="lang-btn active" data-lang="hu">🇭🇺</button>
+                            <button class="lang-btn" data-lang="en">🇺🇸</button>
+                        </div>
+                        <a href="#instructor-login" class="btn btn-instructor">
+                            <i class="fas fa-user"></i> Oktatói Felület
+                        </a>
+                    </div>
+                </nav>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Rólunk</h1>
+            <p>Ismerj meg minket, csapatunkat és küldetésünket</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-page">
+        <div class="container">
+            <div class="about-intro">
+                <div class="intro-text">
+                    <h2>A Hajós Akadémia Története</h2>
+                    <p>A Hajós Akadémia több évtizedes tapasztalattal rendelkezik a vízi közlekedési oktatás terén. 1985-ben alapítottuk azzal a céllal, hogy magas színvonalú, nemzetközi sztenderdeknek megfelelő hajózási képzéseket nyújtsunk Magyarországon.</p>
+                    <p>Az évek során több mint 10,000 sikeres vizsgázót bocsátottunk ki, akik ma a vízi közlekedés különböző területein tevékenykednek - a rekreációs hajózástól kezdve a professzionális kereskedelmi hajózásig.</p>
+                </div>
+                <div class="intro-image">
+                    <img src="https://via.placeholder.com/500x400?text=Hajós+Akadémia" alt="Hajós Akadémia">
+                </div>
+            </div>
+
+            <div class="mission-vision">
+                <div class="mission">
+                    <div class="icon-box">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Misszió</h3>
+                    <p>Célunk, hogy korszerű, biztonságos és hatékony képzésekkel segítsük a jövő hajósait és kapitányait. Elkötelezettek vagyunk amellett, hogy oktatásaink megfeleljenek mind a magyar, mind a nemzetközi szabványoknak.</p>
+                </div>
+
+                <div class="vision">
+                    <div class="icon-box">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Vízió</h3>
+                    <p>Magyarország vezető hajózási oktatási intézményeként szeretnénk továbbra is élenjárni a modern technológiák alkalmazásában és a legmagasabb színvonalú képzések nyújtásában.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2>Értékeink</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Biztonság</h4>
+                        <p>A biztonság mindenek felett áll. Oktatásaink során kiemelten kezeljük a biztonsági protokollokat és szabályokat.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Szakértelem</h4>
+                        <p>Oktatóink mindegyike több évtizedes tapasztalattal és magas szintű képesítésekkel rendelkezik.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Innováció</h4>
+                        <p>Folyamatosan fejlesztjük módszereinket és technológiáinkat, hogy a legjobb oktatást nyújthassuk.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Elkötelezettség</h4>
+                        <p>Elkötelezettek vagyunk tanulóink sikere mellett, személyre szabott támogatást nyújtunk mindenkinek.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accreditations-section">
+                <h2>Akkreditációink és Elismeréseink</h2>
+                <div class="accred-grid">
+                    <div class="accred-item">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Állami Elismerés</h4>
+                        <p>Hivatalosan elismert oktatási intézmény a Magyar Hajózási Hatóság által.</p>
+                    </div>
+
+                    <div class="accred-item">
+                        <i class="fas fa-globe"></i>
+                        <h4>Nemzetközi Akkreditáció</h4>
+                        <p>STCW konvenciós képzések nyújtására jogosult intézmény.</p>
+                    </div>
+
+                    <div class="accred-item">
+                        <i class="fas fa-desktop"></i>
+                        <h4>Szimulátoros Központ</h4>
+                        <p>Korszerű, nemzetközi szabványoknak megfelelő szimulátoros gyakorlóközpont.</p>
+                    </div>
+
+                    <div class="accred-item">
+                        <i class="fas fa-award"></i>
+                        <h4>ISO 9001 Minősítés</h4>
+                        <p>Minőségirányítási rendszerünk ISO 9001 szabvány szerint működik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section class="instructors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Oktatóink</h2>
+                <p>Tapasztalt szakemberek, akik szenvedélyesen oktatnak</p>
+            </div>
+
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-photo">
+                        <img src="https://via.placeholder.com/200x200?text=Kovács+János" alt="Kovács János">
+                    </div>
+                    <h4>Kovács János</h4>
+                    <p class="instructor-title">Főoktató, Kapitány</p>
+                    <p>25 év tapasztalat a belvízi hajózásban, több mint 1000 sikeres vizsgázó. Szakértő a hajóvezetés és navigáció terén.</p>
+                    <div class="instructor-qualifications">
+                        <span><i class="fas fa-certificate"></i> Kapitányi engedély</span>
+                        <span><i class="fas fa-chalkboard-teacher"></i> Oktatói mesterfokozat</span>
+                    </div>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-photo">
+                        <img src="https://via.placeholder.com/200x200?text=Nagy+Petra" alt="Nagy Petra">
+                    </div>
+                    <h4>Nagy Petra</h4>
+                    <p class="instructor-title">Szimulátor Szakértő</p>
+                    <p>Nemzetközi tapasztalat hajószimulátorok terén, innovatív oktatási módszerek kidolgozója. 15 év oktatói gyakorlat.</p>
+                    <div class="instructor-qualifications">
+                        <span><i class="fas fa-desktop"></i> Szimulátor szakértő</span>
+                        <span><i class="fas fa-globe"></i> STCW oktató</span>
+                    </div>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-photo">
+                        <img src="https://via.placeholder.com/200x200?text=Szabó+Mihály" alt="Szabó Mihály">
+                    </div>
+                    <h4>Szabó Mihály</h4>
+                    <p class="instructor-title">Vizsga Biztos</p>
+                    <p>Szakértő az engedélyek és vizsgák terén, precíz és alapos oktatás. 20 év tapasztalat a vizsgáztatásban.</p>
+                    <div class="instructor-qualifications">
+                        <span><i class="fas fa-clipboard-check"></i> Vizsgabiztos</span>
+                        <span><i class="fas fa-book"></i> Elméleti szakértő</span>
+                    </div>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-photo">
+                        <img src="https://via.placeholder.com/200x200?text=Tóth+Andrea" alt="Tóth Andrea">
+                    </div>
+                    <h4>Tóth Andrea</h4>
+                    <p class="instructor-title">Biztonsági Szakértő</p>
+                    <p>Hajózási biztonság és vészhelyzet-kezelés specialistája. Nemzetközi biztonsági tréningek vezetője.</p>
+                    <div class="instructor-qualifications">
+                        <span><i class="fas fa-life-ring"></i> Biztonsági oktató</span>
+                        <span><i class="fas fa-first-aid"></i> Elsősegély oktató</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">38+</div>
+                    <div class="stat-label">Évnyi Tapasztalat</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Sikeres Vizsgázó</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Szakképzett Oktató</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Sikeres Arány</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Csatlakozz hozzánk!</h2>
+            <p>Kezdd el karrieredet a Hajós Akadémiával, Magyarország vezető hajózási oktatási intézményével!</p>
+            <a href="contact.html" class="btn btn-primary btn-large">
+                <i class="fas fa-phone"></i> Kapcsolatfelvétel
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
+                        <span>HAJÓS AKADÉMIA</span>
+                    </a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigáció</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kövess minket</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hajós Akadémia - Minden jog fenntartva.</p>
+                <div class="footer-legal">
+                    <a href="#">Adatkezelési Tájékoztató</a>
+                    <a href="#">Süti Szabályzat</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat - Hajós Akadémia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
+                    <span>HAJÓS AKADÉMIA</span>
+                </a>
+
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="courses.html" class="nav-link">Courses</a></li>
+                        <li><a href="certificates.html" class="nav-link">Certificates & Permits</a></li>
+                        <li><a href="about.html" class="nav-link">About Us</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                    </ul>
+
+                    <div class="header-actions">
+                        <div class="language-selector">
+                            <button class="lang-btn active" data-lang="hu">🇭🇺</button>
+                            <button class="lang-btn" data-lang="en">🇺🇸</button>
+                        </div>
+                        <a href="#instructor-login" class="btn btn-instructor">
+                            <i class="fas fa-user"></i> Oktatói Felület
+                        </a>
+                    </div>
+                </nav>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Kapcsolat</h1>
+            <p>Vedd fel velünk a kapcsolatot, készséggel állunk rendelkezésedre</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <h2>Írj nekünk</h2>
+                    <p>Töltsd ki az alábbi űrlapot és hamarosan felvesszük veled a kapcsolatot.</p>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Név *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Telefonszám</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Tárgy *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Válassz...</option>
+                                    <option value="courses">Tanfolyamok</option>
+                                    <option value="certificates">Engedélyek</option>
+                                    <option value="general">Általános kérdés</option>
+                                    <option value="other">Egyéb</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Üzenet *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Üzenet Küldése
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info-wrapper">
+                    <h2>Elérhetőségeink</h2>
+
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Cím</h4>
+                            <p>1011 Budapest<br>Hajós utca 12.</p>
+                        </div>
+
+                        <div class="info-card">
+                            <i class="fas fa-clock"></i>
+                            <h4>Nyitvatartás</h4>
+                            <p>Hétfő - Péntek: 9:00 - 17:00<br>Szombat: 9:00 - 13:00<br>Vasárnap: Zárva</p>
+                        </div>
+
+                        <div class="info-card">
+                            <i class="fas fa-phone"></i>
+                            <h4>Telefon</h4>
+                            <p><a href="tel:+36123456789">+36 1 234 5678</a><br><a href="tel:+36301234567">+36 30 123 4567</a></p>
+                        </div>
+
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@hajosakademia.hu">info@hajosakademia.hu</a><br><a href="mailto:kepzes@hajosakademia.hu">kepzes@hajosakademia.hu</a></p>
+                        </div>
+                    </div>
+
+                    <div class="social-contact-wrapper">
+                        <h3>Írj nekünk közvetlenül</h3>
+                        <div class="social-contact-buttons">
+                            <a href="#" class="social-link viber">
+                                <i class="fab fa-viber"></i> Viber
+                            </a>
+                            <a href="#" class="social-link whatsapp">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                            <a href="#" class="social-link messenger">
+                                <i class="fab fa-facebook-messenger"></i> Messenger
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Találd meg irodánkat</h2>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.2496653279044!2d19.03582931584384!3d47.50190700517739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc14f3e6ee75%3A0x400c4290c1e1160!2sBudapest!5e0!3m2!1sen!2shu!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gyakran Ismételt Kérdések</h2>
+                <p>Találd meg a válaszokat a leggyakoribb kérdésekre</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Mennyi idő alatt szerezhetek hajóvezetői engedélyt?</h4>
+                    <p>Az alapfokú hajóvezetői engedély megszerzése általában 6-8 hetet vesz igénybe, amely tartalmazza az elméleti és gyakorlati képzést is.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Milyen előképzettség szükséges a tanfolyamokhoz?</h4>
+                    <p>A legtöbb alapszintű tanfolyamhoz nincs szükség előképzettségre, csak érvényes orvosi alkalmasságra és minimum 18 éves korra.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Van lehetőség hétvégi képzésre?</h4>
+                    <p>Igen, számos tanfolyamunkat hétvégi formában is meghirdetjük, hogy dolgozók is részt tudjanak venni rajta.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Mennyi a tanfolyamok díja?</h4>
+                    <p>A díjak tanfolyamonként változnak. Kérjük vegye fel velünk a kapcsolatot pontos árajánlatért!</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Milyen vizsgákat kell tennem?</h4>
+                    <p>Minden engedélyhez elméleti és gyakorlati vizsgát kell tenni. Oktatóink felkészítenek minden szükséges vizsgára.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Van vizsgafelkészítő?</h4>
+                    <p>Igen, minden tanfolyamunk tartalmaz intenzív vizsgafelkészítést, valamint rendelkezésre állnak külön vizsgafelkészítő kurzusok is.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Még mindig vannak kérdéseid?</h2>
+            <p>Hívj minket bizalommal telefonon vagy látogass el hozzánk személyesen!</p>
+            <div class="cta-buttons">
+                <a href="tel:+36123456789" class="btn btn-primary btn-large">
+                    <i class="fas fa-phone"></i> +36 1 234 5678
+                </a>
+                <a href="courses.html" class="btn btn-secondary btn-large">
+                    <i class="fas fa-graduation-cap"></i> Tanfolyamok
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
+                        <span>HAJÓS AKADÉMIA</span>
+                    </a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigáció</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kövess minket</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hajós Akadémia - Minden jog fenntartva.</p>
+                <div class="footer-legal">
+                    <a href="#">Adatkezelési Tájékoztató</a>
+                    <a href="#">Süti Szabályzat</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

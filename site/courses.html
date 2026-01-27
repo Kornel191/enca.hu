@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanfolyamok - Hajós Akadémia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
+                    <span>HAJÓS AKADÉMIA</span>
+                </a>
+
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="courses.html" class="nav-link active">Courses</a></li>
+                        <li><a href="certificates.html" class="nav-link">Certificates & Permits</a></li>
+                        <li><a href="about.html" class="nav-link">About Us</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+
+                    <div class="header-actions">
+                        <div class="language-selector">
+                            <button class="lang-btn active" data-lang="hu">🇭🇺</button>
+                            <button class="lang-btn" data-lang="en">🇺🇸</button>
+                        </div>
+                        <a href="#instructor-login" class="btn btn-instructor">
+                            <i class="fas fa-user"></i> Oktatói Felület
+                        </a>
+                    </div>
+                </nav>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Tanfolyamaink</h1>
+            <p>Válassz a szakmai képzéseink közül és szerezd meg a szükséges tudást és képesítést</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-page">
+        <div class="container">
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/400x250?text=Hajóskapitány+Képzés" alt="Hajóskapitány Képzés">
+                    </div>
+                    <div class="course-content">
+                        <h3>Hajóskapitány Képzés</h3>
+                        <p>Átfogó képzés hajóskapitányoknak, amely tartalmazza az elméleti és gyakorlati ismereteket a biztonságos hajózáshoz.</p>
+
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>120 óra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>8 hét</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Max 15 fő</span>
+                            </div>
+                        </div>
+
+                        <div class="course-features">
+                            <h4>Mit tanulsz?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Hajózási szabályok és előírások</li>
+                                <li><i class="fas fa-check"></i> Navigációs ismeretek</li>
+                                <li><i class="fas fa-check"></i> Meteorológia és időjárás értelmezés</li>
+                                <li><i class="fas fa-check"></i> Hajókezelés gyakorlat</li>
+                                <li><i class="fas fa-check"></i> Vészhelyzetek kezelése</li>
+                            </ul>
+                        </div>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Jelentkezés
+                        </a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/400x250?text=Szimulátor+Tréning" alt="Szimulátor Tréning">
+                    </div>
+                    <div class="course-content">
+                        <h3>Szimulátor Tréning</h3>
+                        <p>Modern szimulátoros gyakorlatok valós helyzetekben, szakképzett oktatók vezetésével. A legújabb technológiával felszerelt központunkban.</p>
+
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>40 óra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>4 hét</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Max 8 fő</span>
+                            </div>
+                        </div>
+
+                        <div class="course-features">
+                            <h4>Mit tanulsz?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Szimulátoros hajóvezetés</li>
+                                <li><i class="fas fa-check"></i> Különböző időjárási körülmények</li>
+                                <li><i class="fas fa-check"></i> Kikötési manőverek</li>
+                                <li><i class="fas fa-check"></i> Vészhelyzet szimuláció</li>
+                                <li><i class="fas fa-check"></i> Éjszakai hajózás</li>
+                            </ul>
+                        </div>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Jelentkezés
+                        </a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/400x250?text=Engedély+Megújítás" alt="Engedély Megújítás">
+                    </div>
+                    <div class="course-content">
+                        <h3>Engedély Megújítás</h3>
+                        <p>Engedélyek és jogosítványok megújítása, továbbképzések tapasztalt szakembereknek. Gyors és hatékony folyamat.</p>
+
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>16 óra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>2 hét</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Max 20 fő</span>
+                            </div>
+                        </div>
+
+                        <div class="course-features">
+                            <h4>Mit tanulsz?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Új szabályozások és változások</li>
+                                <li><i class="fas fa-check"></i> Biztonsági előírások frissítése</li>
+                                <li><i class="fas fa-check"></i> Gyakorlati képességek felfrissítése</li>
+                                <li><i class="fas fa-check"></i> Vizsgafelkészítés</li>
+                                <li><i class="fas fa-check"></i> Dokumentáció kezelése</li>
+                            </ul>
+                        </div>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Jelentkezés
+                        </a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/400x250?text=Vitorlás+Képzés" alt="Vitorlás Képzés">
+                    </div>
+                    <div class="course-content">
+                        <h3>Vitorlás Képzés</h3>
+                        <p>Vitorlázás alapjai és haladó technikák elsajátítása tapasztalt oktatókkal. Elméleti és gyakorlati órák kombinációja.</p>
+
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>60 óra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>6 hét</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Max 12 fő</span>
+                            </div>
+                        </div>
+
+                        <div class="course-features">
+                            <h4>Mit tanulsz?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Vitorlázás alapjai</li>
+                                <li><i class="fas fa-check"></i> Szélirány és vitorlaállítás</li>
+                                <li><i class="fas fa-check"></i> Manőverek gyakorlása</li>
+                                <li><i class="fas fa-check"></i> Versenyszerű vitorlázás</li>
+                                <li><i class="fas fa-check"></i> Karbantartás és hibaelhárítás</li>
+                            </ul>
+                        </div>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Jelentkezés
+                        </a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/400x250?text=Motoros+Hajó+Képzés" alt="Motoros Hajó Képzés">
+                    </div>
+                    <div class="course-content">
+                        <h3>Motoros Hajó Képzés</h3>
+                        <p>Motoros hajók biztonságos vezetésének elsajátítása. Kihajózási gyakorlatok a Balatonon és Dunán.</p>
+
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>80 óra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>7 hét</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Max 10 fő</span>
+                            </div>
+                        </div>
+
+                        <div class="course-features">
+                            <h4>Mit tanulsz?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Motorkezelés és karbantartás</li>
+                                <li><i class="fas fa-check"></i> Hajóvezetési technikák</li>
+                                <li><i class="fas fa-check"></i> Kikötés és horgonyzás</li>
+                                <li><i class="fas fa-check"></i> Üzemanyag-gazdálkodás</li>
+                                <li><i class="fas fa-check"></i> Technikai hibaelhárítás</li>
+                            </ul>
+                        </div>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Jelentkezés
+                        </a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/400x250?text=Rádió+Kezelés" alt="Rádió Kezelés">
+                    </div>
+                    <div class="course-content">
+                        <h3>Rádió Kezelés Tanfolyam</h3>
+                        <p>Hajózási rádióberendezések használatának elsajátítása. VHF és UHF rádió kezelői vizsga felkészítés.</p>
+
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>24 óra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>3 hét</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Max 15 fő</span>
+                            </div>
+                        </div>
+
+                        <div class="course-features">
+                            <h4>Mit tanulsz?</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Rádiófrekvenciák és csatornák</li>
+                                <li><i class="fas fa-check"></i> Kommunikációs protokollok</li>
+                                <li><i class="fas fa-check"></i> Vészjelzések leadása</li>
+                                <li><i class="fas fa-check"></i> GMDSS rendszer alapjai</li>
+                                <li><i class="fas fa-check"></i> Nemzetközi kommunikáció</li>
+                            </ul>
+                        </div>
+
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Jelentkezés
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Kérdésed van a tanfolyamokkal kapcsolatban?</h2>
+            <p>Vedd fel velünk a kapcsolatot, szakértőink készséggel állnak rendelkezésedre!</p>
+            <a href="contact.html" class="btn btn-primary btn-large">
+                <i class="fas fa-phone"></i> Kapcsolatfelvétel
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
+                        <span>HAJÓS AKADÉMIA</span>
+                    </a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navigáció</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kövess minket</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hajós Akadémia - Minden jog fenntartva.</p>
+                <div class="footer-legal">
+                    <a href="#">Adatkezelési Tájékoztató</a>
+                    <a href="#">Süti Szabályzat</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
