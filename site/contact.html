@@ -19,10 +19,10 @@
 
                 <nav class="nav" id="nav">
                     <ul class="nav-list">
-                        <li><a href="courses.html" class="nav-link">Courses</a></li>
-                        <li><a href="certificates.html" class="nav-link">Certificates & Permits</a></li>
-                        <li><a href="about.html" class="nav-link">About Us</a></li>
-                        <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                        <li><a href="courses.html" class="nav-link" data-translate="nav-courses">Courses</a></li>
+                        <li><a href="certificates.html" class="nav-link" data-translate="nav-certificates">Certificates & Permits</a></li>
+                        <li><a href="about.html" class="nav-link" data-translate="nav-about">About Us</a></li>
+                        <li><a href="contact.html" class="nav-link active" data-translate="nav-contact">Contact Us</a></li>
                     </ul>
 
                     <div class="header-actions">
@@ -31,7 +31,7 @@
                             <button class="lang-btn" data-lang="en">🇺🇸</button>
                         </div>
                         <a href="#instructor-login" class="btn btn-instructor">
-                            <i class="fas fa-user"></i> Oktatói Felület
+                            <i class="fas fa-user"></i> <span data-translate="instructor-login">Oktatói Felület</span>
                         </a>
                     </div>
                 </nav>
@@ -48,8 +48,8 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1>Kapcsolat</h1>
-            <p>Vedd fel velünk a kapcsolatot, készséggel állunk rendelkezésedre</p>
+            <h1 data-translate="page-contact-title">Kapcsolat</h1>
+            <p data-translate="page-contact-subtitle">Vedd fel velünk a kapcsolatot, készséggel állunk rendelkezésedre</p>
         </div>
     </section>
 
@@ -58,30 +58,30 @@
         <div class="container">
             <div class="contact-content">
                 <div class="contact-form-wrapper">
-                    <h2>Írj nekünk</h2>
-                    <p>Töltsd ki az alábbi űrlapot és hamarosan felvesszük veled a kapcsolatot.</p>
+                    <h2 data-translate="contact-form-title">Írj nekünk</h2>
+                    <p data-translate="contact-form-subtitle">Töltsd ki az alábbi űrlapot és hamarosan felvesszük veled a kapcsolatot.</p>
 
                     <form id="contactForm" class="contact-form">
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="name">Név *</label>
+                                <label for="name" data-translate="form-name">Név *</label>
                                 <input type="text" id="name" name="name" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="email">Email *</label>
+                                <label for="email" data-translate="form-email">Email *</label>
                                 <input type="email" id="email" name="email" required>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="phone">Telefonszám</label>
+                                <label for="phone" data-translate="form-phone">Telefonszám</label>
                                 <input type="tel" id="phone" name="phone">
                             </div>
 
                             <div class="form-group">
-                                <label for="subject">Tárgy *</label>
+                                <label for="subject" data-translate="form-subject">Tárgy *</label>
                                 <select id="subject" name="subject" required>
                                     <option value="">Válassz...</option>
                                     <option value="courses">Tanfolyamok</option>
@@ -93,18 +93,18 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="message">Üzenet *</label>
+                            <label for="message" data-translate="form-message">Üzenet *</label>
                             <textarea id="message" name="message" rows="6" required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i> Üzenet Küldése
+                            <i class="fas fa-paper-plane"></i> <span data-translate="form-submit">Üzenet Küldése</span>
                         </button>
                     </form>
                 </div>
 
                 <div class="contact-info-wrapper">
-                    <h2>Elérhetőségeink</h2>
+                    <h2 data-translate="contact-info-title">Elérhetőségeink</h2>
 
                     <div class="info-cards">
                         <div class="info-card">
@@ -165,8 +165,8 @@
     <section class="faq-section">
         <div class="container">
             <div class="section-header">
-                <h2>Gyakran Ismételt Kérdések</h2>
-                <p>Találd meg a válaszokat a leggyakoribb kérdésekre</p>
+                <h2 data-translate="faq-title">Gyakran Ismételt Kérdések</h2>
+                <p data-translate="faq-subtitle">Találd meg a válaszokat a leggyakoribb kérdésekre</p>
             </div>
 
             <div class="faq-grid">
@@ -206,14 +206,14 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
-            <h2>Még mindig vannak kérdéseid?</h2>
-            <p>Hívj minket bizalommal telefonon vagy látogass el hozzánk személyesen!</p>
+            <h2 data-translate="cta-contact-title">Még mindig vannak kérdéseid?</h2>
+            <p data-translate="cta-contact-subtitle">Hívj minket bizalommal telefonon vagy látogass el hozzánk személyesen!</p>
             <div class="cta-buttons">
                 <a href="tel:+36123456789" class="btn btn-primary btn-large">
                     <i class="fas fa-phone"></i> +36 1 234 5678
                 </a>
                 <a href="courses.html" class="btn btn-secondary btn-large">
-                    <i class="fas fa-graduation-cap"></i> Tanfolyamok
+                    <i class="fas fa-graduation-cap"></i> <span data-translate="btn-courses">Tanfolyamok</span>
                 </a>
             </div>
         </div>
@@ -231,17 +231,17 @@
                 </div>
 
                 <div class="footer-section">
-                    <h4>Navigáció</h4>
+                    <h4 data-translate="footer-navigation">Navigáció</h4>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="courses.html" data-translate="nav-courses">Courses</a></li>
+                        <li><a href="about.html" data-translate="nav-about">About</a></li>
+                        <li><a href="contact.html" data-translate="nav-contact">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Kövess minket</h4>
+                    <h4 data-translate="footer-follow">Kövess minket</h4>
                     <div class="social-icons">
                         <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
                         <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -251,15 +251,16 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Hajós Akadémia - Minden jog fenntartva.</p>
+                <p data-translate="footer-copyright">&copy; 2026 Hajós Akadémia - Minden jog fenntartva.</p>
                 <div class="footer-legal">
-                    <a href="#">Adatkezelési Tájékoztató</a>
-                    <a href="#">Süti Szabályzat</a>
+                    <a href="#" data-translate="footer-privacy">Adatkezelési Tájékoztató</a>
+                    <a href="#" data-translate="footer-cookies">Süti Szabályzat</a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

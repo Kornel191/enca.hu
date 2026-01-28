@@ -125,15 +125,37 @@ function applyLanguage(lang) {
                     element.placeholder = trans[key];
                 }
             } else {
-                // Preserve HTML structure, only replace text
-                const html = element.innerHTML;
-                const icons = element.querySelectorAll('i');
+                // For all other elements, preserve icons and replace text
+                const icons = element.querySelectorAll('i, .fa, .fas, .fab');
 
                 if (icons.length > 0) {
-                    // If there are icons, preserve them
-                    element.childNodes.forEach(node => {
-                        if (node.nodeType === Node.TEXT_NODE) {
-                            node.textContent = trans[key];
+                    // Save the icons and their positions
+                    const savedIcons = [];
+                    icons.forEach(icon => {
+                        const parent = icon.parentNode;
+                        const nextSibling = icon.nextSibling;
+                        const previousSibling = icon.previousSibling;
+                        savedIcons.push({
+                            element: icon.cloneNode(true),
+                            position: previousSibling ? 'after' : 'before'
+                        });
+                    });
+
+                    // Replace text content
+                    element.textContent = trans[key];
+
+                    // Re-add icons
+                    savedIcons.forEach(iconData => {
+                        if (iconData.position === 'before') {
+                            element.insertBefore(iconData.element, element.firstChild);
+                            if (element.textContent.trim()) {
+                                element.insertBefore(document.createTextNode(' '), iconData.element.nextSibling);
+                            }
+                        } else {
+                            if (element.textContent.trim()) {
+                                element.appendChild(document.createTextNode(' '));
+                            }
+                            element.appendChild(iconData.element);
                         }
                     });
                 } else {
