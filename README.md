@@ -1,130 +1,126 @@
-1. Fejléc (Header)
+TO-DO LISTA (weboldal / projekt feladatlista)
+🧭 1) Nyelvválasztás (HU / EN) funkció
 
-Bal felső sarok: logó (statikus, minden oldalon megjelenik)
-→ Kattintható, a homepage-re (index.html) visz.
+ Implementálni a nyelvváltó logikát (pl. HU / EN gomb vagy dropdown)
 
-Navigációs menü (jobb oldalon vagy középen):
+ A navbar teljes tartalma forduljon le nyelvváltáskor
 
-Home
+ Angolra váltáskor:
 
-Courses
+ Magyar szövegek lecserélése a megadott angol szövegekre
 
-Certificates & Permits
+ Menüelemek (KURZUS, Rólunk, Kapcsolat, stb.) angol megfelelői megjelenjenek
 
-About Us
+ Magyarra váltáskor visszaváltás a magyar szövegekre
 
-Contact Us
+ Szövegek központi nyelvi fájlba (JSON / i18n) szervezése
 
-[Language selector 🇭🇺 / 🇬🇧]
+📚 2) Kurzusok / Képzések szekció frissítése
+Magyar lista
 
-[Instructor login / Oktatói felület gomb] (külön kiemelt CTA)
+ Biztonsági Alapképzés
 
-Fix fejléc (sticky) görgetés közben is maradjon látható.
+ Hajóvezető (uniós)
 
-2. Hero / Kezdőszekció (Homepage felső rész)
+ Személyhajózási szakértő (uniós)
 
-Nagyméretű háttérkép (vagy slider, később cserélhető)
+ Gépkezelő
 
-Cég neve: Hajós Akadémia (fixen, minden oldalon jól látható)
+ Gépész
 
-Rövid bemutató szöveg: “Képzések, engedélyek és szakmai támogatás a vízi közlekedésben.”
+ Radarhajós (uniós)
 
-CTA gomb(ok):
+ Matróz (uniós)
 
-„View Courses / Tanfolyamok”
+ Nemzeti matróz
 
-„Contact Us / Kapcsolatfelvétel”
+Angol lista (EU Courses)
 
-3. Sponsors / Partners Section
+ Basic Safety Training – Decksmann (05)
 
-Egy vízszintes sáv (carousel/slider formában)
+ Boatmaster (01)
 
-Logók egymás mellett automatikusan mozognak (mint a TMLG Academy-n)
+ Boatman – Sailor (04)
 
-Opció: a logók kattinthatók legyenek (külső linkkel)
+ Radar Patent (R)
 
-4. Courses Section
+ Maritime Patent (M)
 
-3 darab tanfolyamkártya (később bővíthető)
+ Passenger Navigation Expert (51)
 
-Mindegyik kártyán:
+ Radiotelephone Operator
 
-Kép
+➡️ Feladat:
 
-Tanfolyam neve
+ Jelenlegi kurzuslista lecserélése a fenti struktúrára
 
-Rövid leírás (2–3 sor)
+ Magyar és angol verziók összepárosítása nyelvváltóhoz
 
-Gomb: „Learn More / Részletek”
+🧑‍🏫 3) Rólunk / About Us szekció frissítése
+Magyar tartalom
 
-Reszponzív rácsos elrendezés (3 oszlop desktopon, 1 oszlop mobilon)
+ European Nautical Crew Academy bemutatkozó szöveg feltöltése
 
-5. Certificates & Permits Section
+ Üzemeltető: Beach Boat Kft.
 
-Rövid ismertető az elérhető engedélyekről, jogosítványokról.
+ Felügyelet: Építési és Közlekedési Minisztérium
 
-Ikonokkal vagy illusztrációkkal (hasonlóan a jelenlegi oldalhoz).
+ Vizsgáztatás: Közlekedési és Alkalmassági Vizsgaközpont + független vizsgabiztosok
 
-Link a részletes oldalra vagy letölthető dokumentumokra.
+Oktatók
 
-6. About Us Section
+ Vezető hajós oktató – Czini Tibor (magyar bio)
 
-Cég bemutatása:
+ Irodavezető – Gáthy Gergely
 
-Rövid történet
+Angol verzió
 
-Misszió / cél
+ About Us angol szöveg feltöltése
 
-Fő engedélyek, akkreditációk
+ Chief Nautical Instructor – Tibor Czini (angol bio)
 
-Edzők / Oktatók bemutatása:
+➡️ Feladat:
 
-Fotó + név + rövid bemutatkozás
+ Magyar és angol “Rólunk” tartalom nyelvváltóval összekötése
 
-(opcionálisan: közösségi linkek vagy elérhetőségek)
+ Jelenlegi placeholder szövegek lecserélése
 
-7. Contact Us Section
+📞 4) Kapcsolat (Contact) szekció
 
-Bal oldal: kapcsolatfelvételi űrlap (név, email, üzenet)
+ Email címek feltüntetése:
 
-Jobb oldal: elérhetőségek blokk
+info@enca.hu
 
-Nyitvatartási idő
+info@hivatasosjogsi.hu
 
-Telefonszám (hívható, kattintható)
+ Ügyfélfogadási idők:
 
-Email cím
+Hétfő 10:00–14:00
 
-Viber ikon + link
+Szerda 14:00–18:00
 
-WhatsApp ikon + link
+ Viber / WhatsApp ikonok és linkek
 
-(mindhez kis ikon)
+ Telefonszám megjelenítése
 
-Térkép (Google Maps beágyazás) opcionálisan alul.
+ Lettországi kapcsolattartó – Elvis
 
-8. Footer (lábléc)
+ Lett telefonszám megadása
 
-Bal oldal: logó + cégnév
+➡️ Angol nyelvű verzió is szükséges (Contact / Opening hours / Latvian representative)
 
-Középen: menü rövidített formában (Home, Courses, About, Contact)
+🖼️ 5) Főoldal (Homepage) header módosítás
 
-Jobb oldal: közösségi ikonok (Facebook, Instagram, YouTube)
+ A főoldalon a headerben csak a háttérkép maradjon
 
-Alul: © 2026 Hajós Akadémia — Minden jog fenntartva.
+ Header alatti szekcióba kerüljenek a szponzor logók
 
-Kisebb betűvel: Adatkezelési tájékoztató, Süti szabályzat linkek.
+ Szponzor szekció kialakítása (logo slider vagy grid)
 
-9. Globális elemek
+🧹 6) Jelenlegi tartalom lecserélése
 
-Fix nyelvválasztó: 🇭🇺 / 🇬🇧 (a fejlécben)
+ Minden eddigi pont és szöveg lecserélése a megadott új tartalomra
 
-Fix cégmegjelölés: „Hajós Akadémia” minden oldalon látható (pl. fejlécben és láblécben is)
+ Duplikált / régi placeholder elemek törlése
 
-Reszponzív design (mobil, tablet, desktop)
-
-Egységes gombstílus, egységes ikonrendszer (Feather vagy Lucide ikonok ajánlottak)
-
-Modern tipográfia, letisztult elrendezés, fehér tér használata
-
-Színek: még nincsenek meghatározva (placeholder értékekkel készülhet a layout)
+ Struktúra egységesítése HU/EN között

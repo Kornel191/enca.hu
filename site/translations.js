@@ -6,17 +6,17 @@ const translations = {
         'nav-certificates': 'Certificates & Permits',
         'nav-about': 'About Us',
         'nav-contact': 'Contact Us',
-        'instructor-login': 'Oktatói Felület',
+        'instructor-login': 'Sail Portal',
 
         // Footer
         'footer-navigation': 'Navigáció',
         'footer-follow': 'Kövess minket',
-        'footer-copyright': '2026 Hajós Akadémia - Minden jog fenntartva.',
+        'footer-copyright': '2026 ENCA - Minden jog fenntartva.',
         'footer-privacy': 'Adatkezelési Tájékoztató',
         'footer-cookies': 'Süti Szabályzat',
 
         // Index page
-        'hero-title': 'Hajós Akadémia',
+        'hero-title': 'European Nautical Crew Academy',
         'hero-subtitle': 'Képzések, engedélyek és szakmai támogatás a vízi közlekedésben.',
         'btn-courses': 'Tanfolyamok',
         'btn-contact': 'Kapcsolatfelvétel',
@@ -42,12 +42,12 @@ const translations = {
         'cta-courses-subtitle': 'Vedd fel velünk a kapcsolatot, szakértőink készséggel állnak rendelkezésedre!',
 
         // Course Cards - Index page
-        'course1-title': 'Hajóskapitány Képzés',
-        'course1-desc': 'Átfogó képzés hajóskapitányoknak, amely tartalmazza az elméleti és gyakorlati ismereteket a biztonságos hajózáshoz.',
-        'course2-title': 'Szimulátor Tréning',
-        'course2-desc': 'Modern szimulátoros gyakorlatok valós helyzetekben, szakképzett oktatók vezetésével.',
-        'course3-title': 'Engedély Megújítás',
-        'course3-desc': 'Engedélyek és jogosítványok megújítása, továbbképzések tapasztalt szakembereknek.',
+        'course1-title': 'Biztonsági Alapképzés',
+        'course1-desc': 'Alapvető biztonsági ismeretek és gyakorlatok hajózási szakemberek számára, nemzetközi sztenderdek szerint.',
+        'course2-title': 'Hajóvezető (uniós)',
+        'course2-desc': 'Uniós hajóvezetői képesítés megszerzése nemzetközileg elismert vizsgákkal és gyakorlati oktatással.',
+        'course3-title': 'Személyhajózási szakértő (uniós)',
+        'course3-desc': 'Személyszállító hajók vezetéséhez szükséges speciális képesítés megszerzése, uniós szabványoknak megfelelően.',
 
         // Certificate Cards - Index page
         'cert1-title': 'Hajóvezetői Engedély',
@@ -122,9 +122,37 @@ const translations = {
         'step4-desc': 'Sikeres vizsga után átveheted az hivatalosan elismert engedélyedet vagy tanúsítványodat.',
 
         // About page content
-        'about-history-title': 'A Hajós Akadémia Története',
-        'about-history-p1': 'A Hajós Akadémia több évtizedes tapasztalattal rendelkezik a vízi közlekedési oktatás terén. 1985-ben alapítottuk azzal a céllal, hogy magas színvonalú, nemzetközi sztenderdeknek megfelelő hajózási képzéseket nyújtsunk Magyarországon.',
-        'about-history-p2': 'Az évek során több mint 10,000 sikeres vizsgázót bocsátottunk ki, akik ma a vízi közlekedés különböző területein tevékenykednek - a rekreációs hajózástól kezdve a professzionális kereskedelmi hajózásig.',
+        'about-history-title': 'A European Nautical Crew Academy',
+        'about-history-text': 'A European Nautical Crew Academy-t a hajózásban jártas, több évtizedes tapasztalattal rendelkező szakemberek alapították azzal a céllal, hogy Magyarországon is magas színvonalú felkészítést biztosítsanak a nemzetközileg elismert, angol nyelvű hajózási vizsgákhoz.',
+        'about-history-p1': 'A European Nautical Crew Academy-t a hajózásban jártas, több évtizedes tapasztalattal rendelkező szakemberek alapították azzal a céllal, hogy Magyarországon is magas színvonalú felkészítést biztosítsanak a nemzetközileg elismert, angol nyelvű hajózási vizsgákhoz.',
+        'about-history-p2': 'Az iskola üzemeltetője a Beach Boat Kft., amelynek felügyeletét az Építési és Közlekedési Minisztérium látja el. Bizonyos vizsgák esetében a Közlekedési és Alkalmassági Vizsgaközpont hivatalos vizsgabiztosai járnak el.',
+        'about-operator-title': 'Üzemeltetés & Felügyelet',
+        'about-operator-text': 'Az iskola üzemeltetője a Beach Boat Kft., amelynek felügyeletét az Építési és Közlekedési Minisztérium látja el. Bizonyos vizsgák esetében a Közlekedési és Alkalmassági Vizsgaközpont hivatalos vizsgabiztosai járnak el. Az iskola által szervezett vizsgákon pedig a hivatalos Vizsgabiztosi Névjegyzékben szereplő, az iskolától független, felkért vizsgabiztosok vesznek részt.',
+
+        // Instructors Hungarian
+        'instructor1-name': 'Czini Tibor',
+        'instructor1-title': 'Vezető Hajós Oktató',
+        'instructor1-desc': 'Több mint 20 év hajózási tapasztalattal rendelkezik, amelyet hajóvezetőként, géptisztként, valamint hajózási és nautikai szakértőként szerzett belföldi és nemzetközi környezetben egyaránt. Jelenleg is hajóparancsnokként dolgozik az Amadeus cégnél.',
+        'instructor1-full-desc': 'Több mint 20 év hajózási tapasztalattal rendelkezik, amelyet hajóvezetőként, géptisztként, valamint hajózási és nautikai szakértőként szerzett belföldi és nemzetközi környezetben egyaránt. Szakterülete a hajózási műszaki rendszerek, az üzemeltetés, valamint a biztonságos hajóvezetés. Végzettségei közé tartozik a hajózási technikus, valamint a közlekedésüzemviteli, kikötői és hajózási technikus képesítés. Nemzetközi nagyhajó-üzemeltetési vezetőként és radarhajósként kiemelt hangsúlyt fektet a korszerű navigációs technikákra és a gyakorlatorientált oktatásra. Jelenleg is hajóparancsnokként dolgozik az Amadeus cégnél, így oktatói tevékenységében naprakész, valós üzemi tapasztalatokra támaszkodik. Oktatói munkája során célja, hogy tanítványai ne csupán sikeresen felkészüljenek a vizsgákra, hanem a gyakorlatban is magabiztos, felelősségteljes és biztonságtudatos hajóvezetőkké váljanak.',
+        'instructor2-name': 'Gáthy Gergely',
+        'instructor2-title': 'Irodavezető',
+        'instructor2-desc': 'Koordinálja az iskola adminisztratív és szervezési feladatait, biztosítva a zökkenőmentes működést és a tanulók számára a legjobb szolgáltatást.',
+
+        // Contact Hungarian
+        'contact-hours-title': 'Nyitvatartás',
+        'contact-hours-text': 'Hétfő: 10:00 - 14:00<br>Szerda: 14:00 - 18:00',
+        'contact-email-title': 'Email',
+
+        // Courses detailed Hungarian
+        'course1-detail-desc': 'Alapvető biztonsági ismeretek és gyakorlatok hajózási szakemberek számára, nemzetközi sztenderdek szerint.',
+        'course2-detail-desc': 'Uniós hajóvezetői képesítés megszerzése nemzetközileg elismert vizsgákkal és gyakorlati oktatással.',
+        'course3-detail-desc': 'Személyszállító hajók vezetéséhez szükséges speciális képesítés megszerzése, uniós szabványoknak megfelelően.',
+        'course4-title': 'Gépkezelő',
+        'course4-detail-desc': 'Hajógép-kezelői képesítés megszerzése, műszaki rendszerek ismerete és karbantartási gyakorlatok elsajátítása.',
+        'course5-title': 'Radarhajós (uniós)',
+        'course5-detail-desc': 'Radar navigációs rendszerek kezelésének elsajátítása uniós szabványok szerint, modern eszközökkel.',
+        'course6-title': 'Matróz (uniós)',
+        'course6-detail-desc': 'Uniós matróz képesítés megszerzése, fedélzeti munkák és hajókezelési alapismeretek elsajátítása.',
         'about-mission-title': 'Misszió',
         'about-mission-desc': 'Célunk, hogy korszerű, biztonságos és hatékony képzésekkel segítsük a jövő hajósait és kapitányait. Elkötelezettek vagyunk amellett, hogy oktatásaink megfeleljenek mind a magyar, mind a nemzetközi szabványoknak.',
         'about-vision-title': 'Vízió',
@@ -144,17 +172,17 @@ const translations = {
         'nav-certificates': 'Certificates & Permits',
         'nav-about': 'About Us',
         'nav-contact': 'Contact Us',
-        'instructor-login': 'Instructor Login',
+        'instructor-login': 'Sail Portal',
 
         // Footer
         'footer-navigation': 'Navigation',
         'footer-follow': 'Follow Us',
-        'footer-copyright': '2026 Boating Academy - All rights reserved.',
+        'footer-copyright': '2026 ENCA - All rights reserved.',
         'footer-privacy': 'Privacy Policy',
         'footer-cookies': 'Cookie Policy',
 
         // Index page
-        'hero-title': 'Boating Academy',
+        'hero-title': 'European Nautical Crew Academy',
         'hero-subtitle': 'Training, licenses, and professional support in water transport.',
         'btn-courses': 'View Courses',
         'btn-contact': 'Contact Us',
@@ -180,12 +208,12 @@ const translations = {
         'cta-courses-subtitle': 'Contact us, our experts are happy to help you!',
 
         // Course Cards - Index page
-        'course1-title': 'Captain Training',
-        'course1-desc': 'Comprehensive training for ship captains, including theoretical and practical knowledge for safe navigation.',
-        'course2-title': 'Simulator Training',
-        'course2-desc': 'Modern simulator exercises in real situations, led by qualified instructors.',
-        'course3-title': 'License Renewal',
-        'course3-desc': 'Renewal of licenses and permits, further training for experienced professionals.',
+        'course1-title': 'Basic Safety Training – Decksmann (05)',
+        'course1-desc': 'Essential safety knowledge and practices for maritime professionals according to international standards.',
+        'course2-title': 'Boatmaster (01)',
+        'course2-desc': 'EU boatmaster qualification with internationally recognized exams and practical training.',
+        'course3-title': 'Passenger Navigation Expert (51)',
+        'course3-desc': 'Specialized qualification for passenger vessel operations, complying with EU standards.',
 
         // Certificate Cards - Index page
         'cert1-title': 'Boat Operator License',
@@ -235,13 +263,21 @@ const translations = {
         'what-you-learn': 'What you will learn?',
 
         // Course 1 details
-        'course1-detail-desc': 'Comprehensive training for ship captains, including theoretical and practical knowledge for safe navigation.',
+        'course1-detail-desc': 'Essential safety knowledge and practices for maritime professionals according to international standards.',
 
         // Course 2 details
-        'course2-detail-desc': 'Modern simulator exercises in real situations, led by qualified instructors. In our center equipped with the latest technology.',
+        'course2-detail-desc': 'EU boatmaster qualification with internationally recognized exams and practical training.',
 
         // Course 3 details
-        'course3-detail-desc': 'Renewal of licenses and permits, further training for experienced professionals. Fast and efficient process.',
+        'course3-detail-desc': 'Specialized qualification for passenger vessel operations, complying with EU standards.',
+
+        // Course 4-6 details
+        'course4-title': 'Maritime Patent (M)',
+        'course4-detail-desc': 'Maritime engineer qualification, knowledge of technical systems and practical maintenance training.',
+        'course5-title': 'Radar Patent (R)',
+        'course5-detail-desc': 'Learning radar navigation systems according to EU standards, with modern equipment.',
+        'course6-title': 'Boatman – Sailor (04)',
+        'course6-detail-desc': 'EU sailor qualification, deck operations and basic ship handling knowledge.',
 
         // Certificates page detailed content
         'requirements': 'Requirements:',
@@ -260,9 +296,26 @@ const translations = {
         'step4-desc': 'After passing the exam, receive your officially recognized license or certificate.',
 
         // About page content
-        'about-history-title': 'History of Boating Academy',
-        'about-history-p1': 'Boating Academy has decades of experience in water transport education. We were founded in 1985 with the goal of providing high-quality maritime training that meets international standards in Hungary.',
-        'about-history-p2': 'Over the years, we have graduated more than 10,000 successful students who now work in various areas of water transport - from recreational boating to professional commercial shipping.',
+        'about-history-title': 'The European Nautical Crew Academy',
+        'about-history-text': 'The European Nautical Crew Academy was founded by highly experienced nautical professionals with decades of hands-on experience, with the aim of providing high-quality training in Hungary for internationally recognised, English-language nautical examinations.',
+        'about-history-p1': 'The European Nautical Crew Academy was founded by highly experienced nautical professionals with decades of hands-on experience, with the aim of providing high-quality training in Hungary for internationally recognised, English-language nautical examinations.',
+        'about-history-p2': 'The Academy is operated by Beach Boat Ltd., under the supervision of the Ministry of Construction and Transport. For certain examinations, official examiners from the Hungarian Navigation Examination Centre are appointed.',
+        'about-operator-title': 'Operation & Supervision',
+        'about-operator-text': 'The Academy is operated by Beach Boat Ltd., under the supervision of the Ministry of Construction and Transport. For certain examinations, official examiners from the Hungarian Navigation Examination Centre are appointed. Exams organised by the Academy are conducted by independent examiners listed in the official Register of Examiners.',
+
+        // Instructors
+        'instructor1-name': 'Tibor Czini',
+        'instructor1-title': 'Chief Nautical Instructor',
+        'instructor1-desc': 'Has over 20 years of experience in nautical operations, gained as a Captain, engine officer, and maritime expert in both domestic and international environments. Currently employed as a First Captain at Amadeus.',
+        'instructor1-full-desc': 'Tibor Czini has over 20 years of experience in nautical operations, gained as a Captain, engine officer, and maritime and nautical expert in both domestic and international environments. His areas of expertise include nautical technical systems, vessel operations, and safe ship handling. His qualifications include nautical technician training as well as transport operations, port operations, and engineer certifications. As an international Boatmaster and certified radar navigator, he places strong emphasis on modern navigation techniques and practice-oriented training. He is currently employed as a First Captain at Amadeus, which allows him to base his instructional work on up-to-date, real-world operational experience. His goal as an instructor is not only to prepare students successfully for their examinations, but also to develop confident, responsible, and safety-conscious ship operators who can perform reliably in real-life situations.',
+        'instructor2-name': 'Gergely Gáthy',
+        'instructor2-title': 'Office Manager',
+        'instructor2-desc': 'Coordinates the school\'s administrative and organizational tasks, ensuring smooth operations and the best service for students.',
+
+        // Contact
+        'contact-hours-title': 'Opening Hours',
+        'contact-hours-text': 'Monday: 10:00 - 14:00<br>Wednesday: 14:00 - 18:00',
+        'contact-email-title': 'Email',
         'about-mission-title': 'Mission',
         'about-mission-desc': 'Our goal is to help future sailors and captains with modern, safe and effective training. We are committed to ensuring our training meets both Hungarian and international standards.',
         'about-vision-title': 'Vision',

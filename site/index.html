@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hajós Akadémia - Képzések és Engedélyek</title>
+    <title>ENCA - European Nautical Crew Academy</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -15,14 +15,13 @@
         <div class="container">
             <div class="header-content">
                 <a href="index.html" class="logo">
-                    <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
-                    <span>HAJÓS AKADÉMIA</span>
+                    <img src="forrasok/logo (2).png" alt="ENCA Logo">
+                    <span>ENCA</span>
                 </a>
 
                 <nav class="nav" id="nav">
                     <ul class="nav-list">
                         <li><a href="courses.html" class="nav-link" data-translate="nav-courses">Courses</a></li>
-                        <li><a href="certificates.html" class="nav-link" data-translate="nav-certificates">Certificates & Permits</a></li>
                         <li><a href="about.html" class="nav-link" data-translate="nav-about">About Us</a></li>
                         <li><a href="contact.html" class="nav-link" data-translate="nav-contact">Contact Us</a></li>
                     </ul>
@@ -30,10 +29,10 @@
                     <div class="header-actions">
                         <div class="language-selector">
                             <button class="lang-btn active" data-lang="hu">🇭🇺</button>
-                            <button class="lang-btn" data-lang="en">🇺🇸</button>
+                            <button class="lang-btn" data-lang="en">🇬🇧</button>
                         </div>
                         <a href="#instructor-login" class="btn btn-instructor">
-                            <i class="fas fa-user"></i> <span data-translate="instructor-login">Oktatói Felület</span>
+                            <i class="fas fa-user"></i> <span data-translate="instructor-login">Sail Portal</span>
                         </a>
                     </div>
                 </nav>
@@ -52,8 +51,9 @@
         <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title" data-translate="hero-title">Hajós Akadémia</h1>
-                <p class="hero-subtitle" data-translate="hero-subtitle">Képzések, engedélyek és szakmai támogatás a vízi közlekedésben.</p>
+                <h1 class="hero-title" data-translate="hero-title">European Nautical Crew Academy</h1>
+                <p class="hero-subtitle" data-translate="hero-subtitle">Képzések, engedélyek és szakmai támogatás a vízi
+                    közlekedésben.</p>
                 <div class="hero-buttons">
                     <a href="courses.html" class="btn btn-primary">
                         <i class="fas fa-graduation-cap"></i> <span data-translate="btn-courses">Tanfolyamok</span>
@@ -94,248 +94,14 @@
         </div>
     </section>
 
-    <!-- Courses Section -->
-    <section class="courses" id="courses">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-translate="courses-title">Tanfolyamaink</h2>
-                <p data-translate="courses-subtitle">Válassz a szakmai képzéseink közül</p>
-            </div>
-
-            <div class="courses-grid">
-                <div class="course-card">
-                    <div class="course-image">
-                        <img src="https://via.placeholder.com/400x250?text=Tanfolyam+1" alt="Tanfolyam 1">
-                    </div>
-                    <div class="course-content">
-                        <h3 data-translate="course1-title">Hajóskapitány Képzés</h3>
-                        <p data-translate="course1-desc">Átfogó képzés hajóskapitányoknak, amely tartalmazza az elméleti és gyakorlati ismereteket a
-                            biztonságos hajózáshoz.</p>
-                        <a href="courses.html" class="btn btn-outline">
-                            <span data-translate="btn-details">Részletek</span> <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="course-card">
-                    <div class="course-image">
-                        <img src="https://via.placeholder.com/400x250?text=Tanfolyam+2" alt="Tanfolyam 2">
-                    </div>
-                    <div class="course-content">
-                        <h3 data-translate="course2-title">Szimulátor Tréning</h3>
-                        <p data-translate="course2-desc">Modern szimulátoros gyakorlatok valós helyzetekben, szakképzett oktatók vezetésével.</p>
-                        <a href="courses.html" class="btn btn-outline">
-                            <span data-translate="btn-details">Részletek</span> <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="course-card">
-                    <div class="course-image">
-                        <img src="https://via.placeholder.com/400x250?text=Tanfolyam+3" alt="Tanfolyam 3">
-                    </div>
-                    <div class="course-content">
-                        <h3 data-translate="course3-title">Engedély Megújítás</h3>
-                        <p data-translate="course3-desc">Engedélyek és jogosítványok megújítása, továbbképzések tapasztalt szakembereknek.</p>
-                        <a href="courses.html" class="btn btn-outline">
-                            <span data-translate="btn-details">Részletek</span> <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certificates Section -->
-    <section class="certificates" id="certificates">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-translate="certificates-title">Engedélyek & Jogosítványok</h2>
-                <p data-translate="certificates-subtitle">Szerezd meg a szükséges engedélyeket és jogosítványokat</p>
-            </div>
-
-            <div class="certificates-grid">
-                <div class="certificate-item">
-                    <div class="certificate-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3 data-translate="cert1-title">Hajóvezetői Engedély</h3>
-                    <p data-translate="cert1-desc">Belvízi hajóvezetői engedély megszerzése alapfokú és haladó szinten.</p>
-                </div>
-
-                <div class="certificate-item">
-                    <div class="certificate-icon">
-                        <i class="fas fa-id-card"></i>
-                    </div>
-                    <h3 data-translate="cert2-title">Kapitányi Vizsga</h3>
-                    <p data-translate="cert2-desc">Professzionális kapitányi képesítés megszerzése nemzetközi sztenderdek szerint.</p>
-                </div>
-
-                <div class="certificate-item">
-                    <div class="certificate-icon">
-                        <i class="fas fa-ship"></i>
-                    </div>
-                    <h3 data-translate="cert3-title">Speciális Engedélyek</h3>
-                    <p data-translate="cert3-desc">Speciális járművekhez és körülményekhez szükséges engedélyek.</p>
-                </div>
-
-                <div class="certificate-item">
-                    <div class="certificate-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3 data-translate="cert4-title">Akkreditált Vizsgák</h3>
-                    <p data-translate="cert4-desc">Államilag és nemzetközileg elismert vizsgák és tanúsítványok.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Us Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-translate="about-title">Rólunk</h2>
-                <p data-translate="about-subtitle">Ismerj meg minket és csapatunkat</p>
-            </div>
-
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>A Hajós Akadémia Története</h3>
-                    <p>A Hajós Akadémia több évtizedes tapasztalattal rendelkezik a vízi közlekedési oktatás terén.
-                        Célunk, hogy magas színvonalú képzésekkel és szakmai támogatással segítsük a jövő hajósait és
-                        kapitányait.</p>
-
-                    <h3>Misszió & Céljaink</h3>
-                    <p>Elkötelezettek vagyunk amellett, hogy korszerű, biztonságos és hatékony képzéseket nyújtsunk,
-                        amelyek megfelelnek mind a magyar, mind a nemzetközi szabványoknak és követelményeknek.</p>
-
-                    <div class="accreditations">
-                        <h3>Akkreditációink</h3>
-                        <ul>
-                            <li><i class="fas fa-check"></i> Államilag elismert oktatási intézmény</li>
-                            <li><i class="fas fa-check"></i> Nemzetközi tanúsítványok kiállítása</li>
-                            <li><i class="fas fa-check"></i> Modern szimulátoros gyakorlóközpont</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="instructors">
-                <h3>Oktatóink</h3>
-                <div class="instructors-grid">
-                    <div class="instructor-card">
-                        <div class="instructor-photo">
-                            <img src="https://via.placeholder.com/200x200?text=Oktató+1" alt="Oktató 1">
-                        </div>
-                        <h4>Kovács János</h4>
-                        <p class="instructor-title">Főoktató, Kapitány</p>
-                        <p>25 év tapasztalat a belvízi hajózásban, több mint 1000 sikeres vizsgázó.</p>
-                    </div>
-
-                    <div class="instructor-card">
-                        <div class="instructor-photo">
-                            <img src="https://via.placeholder.com/200x200?text=Oktató+2" alt="Oktató 2">
-                        </div>
-                        <h4>Nagy Petra</h4>
-                        <p class="instructor-title">Szimulátor Szakértő</p>
-                        <p>Nemzetközi tapasztalat hajószimulátorok terén, innovatív oktatási módszerek.</p>
-                    </div>
-
-                    <div class="instructor-card">
-                        <div class="instructor-photo">
-                            <img src="https://via.placeholder.com/200x200?text=Oktató+3" alt="Oktató 3">
-                        </div>
-                        <h4>Szabó Mihály</h4>
-                        <p class="instructor-title">Vizsga Biztos</p>
-                        <p>Szakértő az engedélyek és vizsgák terén, precíz és alapos oktatás.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-translate="contact-title">Kapcsolat</h2>
-                <p data-translate="contact-subtitle">Vedd fel velünk a kapcsolatot</p>
-            </div>
-
-            <div class="contact-content">
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Név</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Üzenet</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i> Küldés
-                        </button>
-                    </form>
-                </div>
-
-                <div class="contact-info">
-                    <div class="info-block">
-                        <h3>Elérhetőségeink</h3>
-
-                        <div class="info-item">
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <strong>Nyitvatartás</strong>
-                                <p>Hétfő - Péntek: 9:00 - 17:00</p>
-                            </div>
-                        </div>
-
-                        <div class="info-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <strong>Telefon</strong>
-                                <p><a href="tel:+36123456789">+36 1 234 5678</a></p>
-                            </div>
-                        </div>
-
-                        <div class="info-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <strong>Email</strong>
-                                <p><a href="mailto:info@hajosakademia.hu">info@hajosakademia.hu</a></p>
-                            </div>
-                        </div>
-
-                        <div class="social-contact">
-                            <a href="#" class="social-link viber">
-                                <i class="fab fa-viber"></i> Viber
-                            </a>
-                            <a href="#" class="social-link whatsapp">
-                                <i class="fab fa-whatsapp"></i> WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <a href="index.html" class="footer-logo">
-                        <img src="forrasok/logo (2).png" alt="Hajós Akadémia Logo">
-                        <span>HAJÓS AKADÉMIA</span>
+                        <img src="forrasok/logo (2).png" alt="ENCA Logo">
+                        <span>ENCA</span>
                     </a>
                 </div>
 
@@ -360,7 +126,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p data-translate="footer-copyright">&copy; 2026 Hajós Akadémia — Minden jog fenntartva.</p>
+                <p data-translate="footer-copyright">&copy; 2026 ENCA — Minden jog fenntartva.</p>
                 <div class="footer-legal">
                     <a href="#" data-translate="footer-privacy">Adatkezelési Tájékoztató</a>
                     <a href="#" data-translate="footer-cookies">Süti Szabályzat</a>
